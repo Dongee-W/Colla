@@ -7,6 +7,7 @@ from os import listdir
 from os.path import isfile, join
 import sys
 import json
+import seam_carving
 
 def load_color_image(path):
     image = cv2.imread(path, cv2.IMREAD_UNCHANGED)

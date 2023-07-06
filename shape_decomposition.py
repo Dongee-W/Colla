@@ -201,7 +201,6 @@ def xy2rowcol(x, y , ymax):
     return int(round(ymax - y, 0)), int(round(x, 0))
 
 import networkx as nx
-from pyvis.network import Network
 
 from shapely.geometry import MultiLineString
 from shapely import geometry, ops
